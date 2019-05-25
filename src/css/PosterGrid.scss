@@ -1,0 +1,5 @@
+.poster-grid {
+  display: grid;
+  grid-gap: 20px 40px;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+}

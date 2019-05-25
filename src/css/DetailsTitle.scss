@@ -1,0 +1,45 @@
+@import "global";
+
+.details-title {
+  padding: 0 var(--container-padding);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: flex-end;
+  grid-gap: 30px;
+  margin-bottom: 50px;
+
+  .poster {
+    width: 190px;
+    height: 285px;
+    min-height: 285px;
+    margin-top: -140px;
+    border: 2px solid $bg-color;
+    z-index: 9;
+  }
+
+  .text {
+    .title {
+      font-size: 48px;
+      font-weight: 800;
+      margin: 10px 0;
+    }
+
+    .rating {
+      font-size: 36px;
+
+      .star-icon {
+        color: #FFDE4D;
+      }
+    }
+
+    .info {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .bottom {
+      display: flex;
+      align-content: center;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "loading";
+
+.loading-card {
+  .poster {
+    @include skeleton-anim;
+    border-radius: 4px;
+    height: 195px;
+  }
+
+  .title {
+    @include skeleton-anim;
+    height: 1em;
+    width: 80%;
+    margin: 10px auto;
+  }
+}

@@ -1,0 +1,32 @@
+@import "global";
+
+.searchbar {
+  background: white;
+  padding: 7px 15px;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  line-height: 1;
+  grid-gap: 10px;
+  border: 1px solid $border-color;
+  color: $text-color;
+  //margin-top: 15px;
+  //margin-bottom: 15px;
+  .clear-btn {
+    padding: 0;
+    line-height: 1;
+  }
+
+  .fa-search, .fa-times {
+    opacity: 0.5;
+  }
+
+  input {
+    background: white;
+    border: none;
+    outline: none;
+    width: 98%;
+    padding: 0;
+  }
+}

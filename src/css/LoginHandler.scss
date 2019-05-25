@@ -1,0 +1,46 @@
+@import "global";
+
+.signup-button {
+  text-decoration: underline;
+  align-self: center;
+}
+
+.login-bars {
+  display: grid;
+  grid-template-columns: minmax(100px, 150px) minmax(100px, 150px) 60px 60px;
+  grid-template-rows: 30px;
+  grid-gap: 5px;
+}
+
+.signup-button:hover {
+  opacity:0.6;
+}
+
+.password-div {
+  position: relative;
+}
+
+.password-input {
+  width: 100%;
+  height: 100%;
+}
+
+.forgot-password {
+  font-size: 12px;
+}
+
+.login-btn-mobile {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-barsMobile {
+  #email-bar, #pass-bar{
+    width: 100%;
+  }
+}
+
+.signup-btn-mobile {
+  text-align: center;
+}

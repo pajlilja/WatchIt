@@ -1,0 +1,26 @@
+.poster-card {
+  display: block;
+  text-align: center;
+  color: inherit;
+
+  .poster {
+    border-radius: 4px;
+    width: 100%;
+    min-height: 195px;
+    transition: all 0.2s ease;
+    overflow: hidden;
+  }
+
+  .poster.fallback-img {
+    height: 80%;
+  }
+
+  .poster:hover {
+    opacity: 0.7;
+    transition: all 0.4s ease;
+  }
+
+  .title {
+    margin: 10px 0 0 0;
+  }
+}

@@ -1,0 +1,17 @@
+@import "global";
+
+.secondary-btn {
+  display: inline-block;
+  box-sizing: border-box;
+  color: $primary-color;
+  font-weight: bold;
+  background: none;
+  border: 2px solid $primary-color;
+  padding: 7px 33px 8px 33px;
+  border-radius: 50px;
+
+  &:active {
+    background: $primary-color;
+    color: white;
+  }
+}
